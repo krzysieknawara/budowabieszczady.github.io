@@ -609,3 +609,67 @@ h6,
 #pricing-table1-11 .mbr-price-figure {
   font-size: 60px;
 }
+#menu-1k .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-1k .navbar-caption {
+  color: #ffffff;
+}
+#menu-1k .navbar-toggler {
+  color: #efefef;
+}
+#menu-1k .close-icon::before,
+#menu-1k .close-icon::after {
+  background-color: #efefef;
+}
+#menu-1k .link,
+#menu-1k .dropdown-item {
+  color: #efefef;
+}
+#menu-1k .link {
+  font-size: 0.8rem;
+}
+#menu-1k .dropdown-item,
+#menu-1k .nav-dropdown-sm .link {
+  font-size: 0.866rem;
+}
+#menu-1k .link:hover,
+#menu-1k .dropdown-item:hover,
+#menu-1k .link:focus,
+#menu-1k .dropdown-item:focus {
+  color: #c0a375;
+}
+#menu-1k .link[aria-expanded="true"],
+#menu-1k .dropdown-menu {
+  background: #0e0e0e;
+}
+#menu-1k .nav-dropdown-sm .link:focus,
+#menu-1k .nav-dropdown-sm .link:hover,
+#menu-1k .nav-dropdown-sm .dropdown-item:focus,
+#menu-1k .nav-dropdown-sm .dropdown-item:hover {
+  background: #202020!important;
+}
+#menu-1k .navbar,
+#menu-1k .nav-dropdown-sm,
+#menu-1k .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-1k .nav-dropdown-sm .dropdown-menu {
+  background: #282828;
+}
+#menu-1k .bg-color.transparent .link {
+  color: #efefef;
+  transition: none;
+}
+#menu-1k .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-1k .bg-color.transparent.opened .link:hover,
+#menu-1k .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#menu-1k .link[aria-expanded="true"],
+#menu-1k .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
+#menu-1k .btn {
+  font-size: 10px;
+}
